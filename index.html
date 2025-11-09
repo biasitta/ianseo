@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I@NSEO Pro | Arco e Flecha Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            100: '#ffcdd2',
+                            200: '#ef9a9a',
+                            300: '#e57373',
+                            400: '#ef5350',
+                            500: '#f44336',
+                            600: '#e53935',
+                            700: '#d32f2f',
+                            800: '#c62828',
+                            900: '#b71c1c',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100">
+    <custom-header></custom-header>
+    
+    <main class="container mx-auto px-4 py-8">
+        <section class="hero relative rounded-xl overflow-hidden shadow-xl mb-12 flex items-center justify-center bg-primary-900">
+            <!-- Alterando a imagem de fundo para a nova URL -->
+            <img src="https://arcoeflechace.wordpress.com/wp-content/uploads/2015/03/bandeiras700.jpg?w=1000" alt="Arco e Flecha" class="w-full h-auto max-h-[70vh]">
+            <div class="absolute inset-0 bg-gradient-to-t from-primary-900 to-transparent flex items-end p-8">
+                <div class="text-white">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-2">Alvos Inteligentes I@NSEO</h1>
+                    <p class="text-xl md:text-2xl mb-6">Tecnologia de ponta para marcação automática de pontos em competições de arco e flecha</p>
+                    <div class="flex flex-col md:flex-row gap-4">
+                        <a href="#" class="bg-primary-600 hover:bg-primary-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center">
+                            Comece Agora <i data-feather="arrow-right" class="ml-2"></i>
+                        </a>
+                        <a href="#app" class="bg-white hover:bg-gray-100 text-primary-600 font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center">
+                            Conheça Nosso App <i data-feather="smartphone" class="ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="products grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 flex flex-col">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAcqP5K-OBXchLufRL9DbJv1K797r0y6lUKkwMOkzu9fxMqynd6RdanglzHkX3iE7d88&usqp=CAU" alt="Alvo Tradicional" class="w-full h-64 object-contain rounded-lg mb-4">
+                <h3 class="text-xl font-bold mb-2">Alvos I@NSEO</h3>
+                <p class="text-gray-600 mb-4">Alvos de competição com tecnologia integrada para marcação automática de pontos.</p>
+                <a href="#" class="mt-auto text-primary-600 font-medium inline-flex items-center">
+                    Ver modelos <i data-feather="chevron-right" class="ml-1"></i>
+                </a>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 flex flex-col">
+                <img src="https://static.wixstatic.com/media/e19f03_fa557c846370442e9eb229a48ebab2fd.png/v1/fill/w_280,h_163,q_90,enc_avif,quality_auto/e19f03_fa557c846370442e9eb229a48ebab2fd.png" alt="Anteparo Tradicional" class="w-full h-64 object-contain rounded-lg mb-4">
+                <h3 class="text-xl font-bold mb-2">Anteparos I@NSEO</h3>
+                <p class="text-gray-600 mb-4">Anteparos com sistema de detecção para captura precisa dos impactos das flechas.</p>
+                <a href="#" class="mt-auto text-primary-600 font-medium inline-flex items-center">
+                    Ver modelos <i data-feather="chevron-right" class="ml-1"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="app" class="app-feature bg-primary-800 text-white rounded-xl p-8 mb-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">I@NSEO App</h2>
+                    <p class="text-xl mb-6">O aplicativo oficial para gerenciamento dos Alvos e Anteparos Inteligentes!</p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Marcação automática e precisa de pontos</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Visualização instantânea dos impactos</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Histórico completo de treinos e competições</li>
+                        <li class="flex items-center"><i data-feather="check" class="mr-2"></i> Configuração remota dos alvos e anteparos</li>
+                    </ul>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#" class="bg-white hover:bg-gray-100 text-primary-800 font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center">
+                            <i data-feather="download" class="mr-2"></i> Baixar App
+                        </a>
+                        <a href="#" class="border-2 border-white hover:bg-white hover:text-primary-800 font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center">
+                            <i data-feather="play" class="mr-2"></i> Ver Demonstração
+                        </a>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <!-- Imagem do aplicativo -->
+                    <img src="https://play-lh.googleusercontent.com/6D_prCU6Cx_6g-aRlk5f6jUG7rp0CNbSZxurlq639PERkdgzFnSQbl3O1MQ6vYIKo5U" alt="I@NSEO App" class="rounded-xl shadow-2xl max-w-full h-auto">
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials bg-primary-100 rounded-xl p-8 mb-16">
+            <h2 class="text-3xl font-bold text-primary-800 mb-8 text-center">O Que Nossos Arqueiros Dizem</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-primary-200 flex items-center justify-center mr-4">
+                            <i data-feather="user" class="text-primary-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Carlos M.</h4>
+                            <p class="text-sm text-gray-500">Arqueiro Competitivo</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"O I@NSEO App revolucionou meus treinos. A marcação automática de pontos economiza horas e me permite focar no que importa!"</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-primary-200 flex items-center justify-center mr-4">
+                            <i data-feather="user" class="text-primary-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Ana P.</h4>
+                            <p class="text-sm text-gray-500">Instrutora</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"Recomendo o I@NSEO para todos meus alunos. A análise de performance ajuda a identificar pontos de melhoria rapidamente."</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
